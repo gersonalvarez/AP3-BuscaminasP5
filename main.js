@@ -31,14 +31,13 @@ function setup()
 }
 
 
-function draw() { 
+function draw() {
   if (hizoClick == true)
   {
     pintarCasillero(columnaPresionada, filaPresionada, COLOR_CASILLERO_SIN_MINA); //pinta el casillero clickeado. Modificar/completar
-      if(tieneMinaCasillero(columnaPresionada, filaPresionada)){
-        perder();
-      }  
-  //asdasd
+
+
+    
     hizoClick = false;  //Indico que ya "procesé" el click del usuario. NO modificar
   }
 }
