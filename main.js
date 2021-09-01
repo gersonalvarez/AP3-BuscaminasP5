@@ -38,7 +38,7 @@ function draw() {
       if(tieneMinaCasillero(columnaPresionada, filaPresionada)){
         perder();
       }  
-  
+  //asdasd
     hizoClick = false;  //Indico que ya "procesé" el click del usuario. NO modificar
   }
 }
