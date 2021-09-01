@@ -63,6 +63,19 @@ function mostrarMinas()
 }
 
 function contarMinasAlrededor(columna, fila)
-{
-  return 9;   //Esto hace que SIEMPRE cuente 9 minas alrededor. Modificar/completar
+{ 
+  var mina = =
+  if (tieneMinaCasillero(columna,fila + 1 )){
+    minas = minas + 1
+  }
+  if (tieneMinaCasillero(columna + 1,fila + 1 )){
+    minas = minas + 1
+  }
+  if (tieneMinaCasillero(columna,fila - 1 )){
+    minas = minas + 1
+  }
+  if (tieneMinaCasillero(columna - 1,fila + 1 )){
+    minas = minas + 1
+
+  return minas;   //Esto hace que SIEMPRE cuente 9 minas alrededor. Modificar/completar
 }
