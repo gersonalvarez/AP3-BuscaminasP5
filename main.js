@@ -38,11 +38,9 @@ function draw() {
 
   if(tieneMinaCasillero)(columnaPresionada,filaPresionada))
     perder();
-    ponerMinasTablero(1,0);
+    ponerMinaCasillero(1,0);
 
-      if(tieneMinaCasillero(columnaPresionada, filaPresionada)){
-        perder();
-      } 
+      
  
     hizoClick = false;  //Indico que ya "procesé" el click del usuario. NO modificar
   }
